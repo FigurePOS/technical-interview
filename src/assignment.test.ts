@@ -3,7 +3,7 @@ import { calculateAveragePreparationTimesForAllProducts, calculateShortestItemPr
 
 describe("tests for calculateShortestItemPreparationTime", () => {
     it("you can implement your tests here", () => {
-        expect(calculateShortestItemPreparationTime(order1)).toEqual(185)
+        expect(calculateShortestItemPreparationTime(order1)).toEqual(360)
     })
 })
 describe("tests for calculatePreparationTimeOfWholeOrder", () => {
